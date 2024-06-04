@@ -1,0 +1,42 @@
+.nodePanel-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+.nodepanel-text{
+    padding-left: 10px;
+  }
+.nodePanel-body{
+    padding: 10px;
+}
+.node-box {
+    margin: 8px 0;
+    padding: 16px;
+    background: white;
+    border: 1px solid #5d6aa9; 
+    border-radius: 8px;
+    text-align: center;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+  }
+  
+  .node-box:active {
+    cursor: grabbing;
+  }
+  
+  .node-box .icon {
+    font-size: 24px;
+    color: #5d6aa9; 
+  }
+  
+  .node-box .text {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5d6aa9; 
+  }
+  
